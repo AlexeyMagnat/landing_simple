@@ -1,0 +1,23 @@
+.button {
+	/*устанавливаем флекс центрирование через миксин*/
+	@include flex-center(true);
+
+	height: var(--button-height);
+	padding-inline: 29px;
+	color: var(--color-light);
+	background-color: var(--color-accent);
+	border: none;
+	font-family: var(--font-family-base);
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.04em;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	@include hover {
+		color: var(--color-dark);
+		background-color: transparent;
+		border: var(--border);
+	}
+}
