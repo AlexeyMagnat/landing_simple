@@ -1,0 +1,32 @@
+.hero {
+	margin-top: 115px;
+
+	&__wrapper {
+		background-image: url("/images/bg_hero.jpg");
+		background-position: center 1px; // x y
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 499px;
+
+		&-content {
+			display: flex;
+			flex-direction: column;
+			justify-content: start;
+			align-items: center;
+			gap: 30px;
+
+			h3 {
+				padding-top: 120px;
+				font-family: var(--font-family-base);
+				font-weight: 700;
+				font-size: 30px;
+				line-height: 1.2;
+				letter-spacing: 0.01em;
+				text-align: center;
+				color: var(--color-gray);
+				max-width: 350px;
+				min-height: 72px;
+			}
+		}
+	}
+}

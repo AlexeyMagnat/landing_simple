@@ -1,0 +1,43 @@
+.mail {
+	height: 100px;
+	background-color: var(--color-dark);
+	display: flex;
+	align-items: center;
+	margin-inline: auto;
+	max-width: 1440px;
+	/*margin: auto;*/
+
+	&__wrapper {
+		display: flex;
+		column-gap: 70px;
+		justify-content: center;
+		align-items: center;
+
+		p {
+			font-family: var(--font-family-base);
+			font-weight: 700;
+			font-size: 22px;
+			letter-spacing: 0.04em;
+			text-align: center;
+			color: var(--color-light);
+		}
+	}
+}
+.mail__input {
+	display: flex;
+	align-items: center;
+}
+.email-input {
+	border: 1px solid #979797;
+	width: 250px;
+	height: var(--input-height);
+	outline: none;
+	margin: 0;
+	padding-left: 16px;
+
+	font-family: var(--font-family-base);
+		font-weight: 400;
+		font-size: 14px;
+		letter-spacing: 0.01em;
+		color: var(--color-gray);
+}
