@@ -507,15 +507,15 @@ h4 {
 }
 
 .card-1 {
-  background-image: url("/images/wePlan.jpg");
+  background-image: url("../images/wePlan.jpg");
 }
 
 .card-2 {
-  background-image: url("/images/weManage.jpg");
+  background-image: url("../images/weManage.jpg");
 }
 
 .card-3 {
-  background-image: url("/images/weBuild.jpg");
+  background-image: url("../images/weBuild.jpg");
 }
 
 .services__header {
@@ -578,7 +578,7 @@ h4 {
   margin-top: 115px;
 }
 .hero__wrapper {
-  background-image: url("/images/bg_hero.jpg");
+  background-image: url("../images/bg_hero.jpg");
   background-position: center 1px;
   background-size: contain;
   background-repeat: no-repeat;
